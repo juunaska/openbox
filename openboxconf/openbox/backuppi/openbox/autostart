@@ -1,0 +1,64 @@
+
+
+#  	   __________________________
+#     | ##########################
+#     | #                        #
+#     | #   O  P  E  N  B  O  X  #
+#     | #                        #
+#     \ ##########################
+
+
+#------startups-------#
+
+nitrogen --restore &
+polybar -r &
+xfce4-power-manager &
+volumeicon &
+nm-applet &
+
+#---------------------#
+
+
+
+
+
+
+
+
+#-----------------roskat
+
+
+#picom -b --config ~/.config/picom.conf &
+
+# You can set picom to use either xrender or glx
+# Change if issues
+#autorandr horizontal
+
+#bluetooth#
+#(blueberry-tray) &
+
+## Desktop notification
+/usr/lib/xfce4/notifyd/xfce4-notifyd &
+
+## GNOME PolicyKit authentication
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+## Turn off/on System Beep
+xset b off
+
+##on laptops without seperate numeric keyboard put hashtag in front
+numlockx &
+
+## install xcape - press super to get menu
+xcape -e 'Super_L=Super_L|space'
+
+
+##Clipboard Manager
+#(xfce4-clipman) &
+
+## XFCE4 Settings
+#xfsettingsd &
+#(plank) &
+#discord &
+#insync start &
+#dropbox &
