@@ -46,8 +46,8 @@
                     'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Clia-Dark</name>
-    <titleLayout>IMC</titleLayout>
+    <name>Clia-Gray</name>
+    <titleLayout>C</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
       N: window icon
@@ -164,7 +164,7 @@
        cases. -->
   <margins>
     <top>0</top>
-    <bottom>53</bottom>
+    <bottom>3</bottom>
     <left>0</left>
     <right>0</right>
   </margins>
@@ -274,10 +274,6 @@
         <to>10</to>
       </action>
     </keybind>
- 
-
-
-
     <keybind key="W-S-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
@@ -450,15 +446,11 @@
         <command>xkill</command>
       </action>
     </keybind>
-
     <keybind key="C-S-s">
       <action name="Execute">
         <command>systemctl suspend</command>
       </action>
     </keybind>
- 
-
-
     <keybind key="W-C-Right">
       <action name="Execute">
         <command>redshift -x</command>
@@ -474,7 +466,6 @@
         <command>redshift -O 5000</command>
       </action>
     </keybind>
-
     <keybind key="W-A-Up">
       <action name="Execute">
         <command>brightnessctl set 3%+</command>
@@ -485,10 +476,6 @@
         <command>brightnessctl set 3%-</command>
       </action>
     </keybind>
- 
-
-
-
     <keybind key="W-m">
       <action name="Execute">
         <command>killall openbox</command>
